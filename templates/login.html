@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>WorldJackpot Login</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    body {
+      background-color: #0b1d26;
+      color: #fff;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .login-box {
+      background: #1c3a4e;
+      padding: 2em;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #000;
+    }
+    input[type="email"], button {
+      width: 100%;
+      padding: 0.8em;
+      margin: 1em 0;
+      border: none;
+      border-radius: 5px;
+    }
+    input[type="email"] {
+      background: #fff;
+      color: #000;
+    }
+    button {
+      background-color: #ffc107;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <h2>WorldJackpot Login</h2>
+    <form method="post">
+      <input type="email" name="email" placeholder="E-Mail eingeben" required>
+      <button type="submit">Einloggen</button>
+    </form>
+  </div>
+</body>
+</html>
